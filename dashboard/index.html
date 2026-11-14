@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>입고검사 품질 대시보드 목록</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f3f6fa;color:#17283e;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;line-height:1.6}
+main{max-width:860px;margin:auto;padding:48px 20px}
+.eyebrow{font-size:13px;letter-spacing:.12em;font-weight:700;color:#397076;margin:0}
+h1{font-size:30px;letter-spacing:-.04em;margin:5px 0 8px}
+.subtitle{color:#57677c;margin:0 0 28px}
+.list{display:grid;gap:14px}
+a.card{display:block;background:#fff;border:1px solid #dce4ed;border-radius:12px;padding:22px 22px;text-decoration:none;color:inherit;transition:border-color .15s,box-shadow .15s}
+a.card:hover,a.card:focus-visible{border-color:#397076;box-shadow:0 4px 14px rgba(23,62,86,.08);outline:none}
+.tag{display:inline-block;background:#e5edf4;border-radius:6px;padding:2px 10px;font-size:13px;color:#173e56}
+.card h2{font-size:19px;margin:10px 0 4px}
+.card p{margin:0;color:#57677c;font-size:15px}
+footer{margin-top:32px;font-size:13px;color:#7a8899}
+</style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">PROJECT 2</p>
+  <h1>입고검사 품질 대시보드</h1>
+  <p class="subtitle">검사 기간 2026-09-01 ~ 2026-10-20 · 교육용 실습 데이터</p>
+  <div class="list">
+    <a class="card" href="./inspection-eda/inspection_dashboard.html">
+      <span class="tag">02회차</span>
+      <h2>입고검사 품질 대시보드</h2>
+      <p>전체·협력사별 검사수량, 불량률, 불량유형을 협력사·검사주차 필터로 확인합니다.</p>
+    </a>
+    <a class="card" href="./supplier-review/supplier_review.html">
+      <span class="tag">03회차</span>
+      <h2>협력사 재계약 검토</h2>
+      <p>협력사별 측정치수 분포와 품질 지표를 비교해 재계약 검토 근거를 정리합니다.</p>
+    </a>
+  </div>
+  <footer>각 화면은 데이터를 HTML 안에 포함한 독립형 파일이며, 외부 파일이나 서버 연결 없이 열립니다.</footer>
+</main>
+</body>
+</html>
